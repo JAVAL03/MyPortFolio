@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javal - Portfolio About</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        main section.aboutfirst {
+            display: flex;
+            justify-content: space-between;
+            /* max-width: 800px; */
+            margin: 20px auto;
+        }
+
+        div.about {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(60, 9, 108, 0.4);
+            width: 30%;
+            margin: 20px 100px;
+        }
+
+        div.about p{
+            line-height: 1.5;
+        }
+
+        h1, h2 {
+            color: white !important;
+            font-size: 2rem;
+        }
+
+        h1,h2 {
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            column-count: 2;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 30px ;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+        div.table{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        section.table-container {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><b>Javal Katkade</b>  <b style="font-size: small; color:rgba(255, 255, 255, 0.8);">Portfolio</b></div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="aboutfirst">
+            <div class="about">
+                <h1>Personal Information</h1>
+                <p>Hello! I'm Javal Katkade, a Computer Science Engineer passionate about technology and coding.I am a passionate computer science engineer dedicated to exploring the vast realms of technology and innovation.My journey in the tech world has been marked by hands-on experience in languages such as Java, Python, and JavaScript, as well as proficiency in web development .</p>
+            </div>
+            <div class="about">
+                <h2>Skills</h2>
+            <ul>
+                <li>C</li>
+                <li>CPP</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>React</li>
+                <li>Node</li>
+            </ul>
+            </div>
+        </section>
+        <section class="table-conatiner">
+           <center> <h2>Education</h2></center>
+            
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>University</th>
+                            <th>Graduation Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>B.Tech in Computer Science</td>
+                            <td>MGM's College of Engineering,Nanded</td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>HSC</td>
+                            <td>Cambridge Jr College,Nanded</td>
+                            <td>2019</td>
+                        </tr>
+                        <tr>
+                            <td>SSC</td>
+                            <td>Cambridge High School,Nanded</td>
+                            <td>2010</td>
+                        </tr>
+                        <!-- Add more rows if needed -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
